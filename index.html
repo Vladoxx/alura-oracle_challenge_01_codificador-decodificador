@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="por-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Challenge</title>
+
+</head>
+
+<body>
+
+    <header>
+    <span><a href="https://www.alura.com.br/" target="_blank"><img class="alura" src="imagens/Alura Image.png" alt=""></a></span>
+    </header>
+
+    <section>
+
+        <div class="div">
+            <textarea class="text_area" type="text" rows="6" placeholder="Digite seu texto" maxlength="400"></textarea>
+        </div>
+
+        <div class="buttons">
+            <span><img src="imagens/signo_de_exclamação.png" class="icono"><p class="instrucao"> Apenas letras minúsculas e sem acento.</p></span>
+            <button class="button" id="criptografia">Criptografar</button>
+            <button class="button" id="descriptografia">Descriptografar</button>
+        </div>
+
+        <div class="frame_conteudo">
+
+            <div class="frame">
+                <div class="mensaje">
+                    <p class="paragrafo_frame1">Nenhuma mensagem encontrada</p>
+                    <p class="paragrafo_frame2">Digite um texto que você deseja criptografar ou descriptografar.</p>
+                </div>
+                <div class="text_conteudo">
+                    <textarea class="recebe_text" id="apareceNaTela" aria-rowcount="10" rows="10" readonly></textarea>
+                    <img class="search_image" src="imagens/Search Image.jpg" alt="">
+                    <button class="copiar" onclick="copiarTexto()">Copiar</button>
+                </div>
+            </div>
+            
+
+        </div>
+
+    </section>
+
+    <footer>
+        <div class="redes">
+            <a href="https://www.facebook.com/wladkochmanski/" target="_blank"><img class="redes_sociais" src="imagens/icons_redes sociais/facebook.png" alt=""></a>
+            <a href="https://www.instagram.com/wlad_kochmanski/" target="_blank"><img class="redes_sociais" src="imagens/icons_redes sociais/instagram.png" alt=""></a>
+            <a href="https://www.linkedin.com/in/wladkoch/?locale=pt_BR" target="_blank"><img class="redes_sociais" src="imagens/icons_redes sociais/linkedin.png" alt=""></a>
+            <a href="https://twitter.com/WKochmansky" target="_blank"><img class="redes_sociais" class="redes_sociais" src="imagens/icons_redes sociais/twitter.png" alt=""></a>
+            <a href="https://github.com/Vladoxx"  target="_blank"><img class="redes_sociais" src="imagens/icons_redes sociais/github.png" alt=""></a>
+        </div>
+        <p class="pie">Realizado por Wlad Kochmansky</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
