@@ -29,10 +29,9 @@ function criptografar() {
     const conteudo = document.querySelector('.text_conteudo');
     conteudo.style.display = "block";
     const apareceNaTela = document.querySelector('#apareceNaTela').innerHTML = recebeTexto.join('');
-    // apareceNaTela.style.visibility = "visible"
+
     document.querySelector('.mensaje').innerHTML = '';
-    // const frame = document.querySelector('.frame');
-    // frame.style.display = "none";
+
     const apareceButton = document.querySelector('.copiar');
     apareceButton.style.visibility = "visible";
 
